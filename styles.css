@@ -56,9 +56,13 @@ body {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 .navigation .nav-right {
     text-align: right;
+}
+.navigation .nav-left {
+    text-align: left;
 }
 .navigation .nav-brand {
     font-weight: bold;
@@ -67,14 +71,14 @@ body {
     color: white;
 }
 .navigation .nav-active {
-    font-weight: bold;
+    font-weight: bolder;
 }
 .hero {
     padding: 2rem;
     padding-top: 2rem;
 }
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 450px;
     display: block;
     margin: auto;
 }
@@ -85,6 +89,11 @@ body {
 }
 .hero .hero-head span {
     color: var(--default-color);
+}
+.hero h2 {
+    text-align: center;
+    padding: 1rem;
+    padding-top: 0rem;
 }
 
 .section {
@@ -101,6 +110,7 @@ body {
     padding:  2rem 1rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     padding-inline-start: 0px;
 }
