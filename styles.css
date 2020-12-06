@@ -76,11 +76,12 @@ body {
 .hero {
     padding: 2rem;
     padding-top: 2rem;
-}
-.hero .hero-img {
-    max-width: 450px;
     display: block;
     margin: auto;
+}
+.hero .hero-img {
+    max-width: 350px;
+
 }
 .hero .hero-head {
     text-align: center;
